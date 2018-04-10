@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A6282A7207C9C4B00B0F8B5 /* DMSEntryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6282A6207C9C4B00B0F8B5 /* DMSEntryListView.swift */; };
 		7AD653C62079877F0058ADE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD653C52079877F0058ADE4 /* AppDelegate.swift */; };
 		7AD653C82079877F0058ADE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD653C72079877F0058ADE4 /* ViewController.swift */; };
 		7AD653CB2079877F0058ADE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD653C92079877F0058ADE4 /* Main.storyboard */; };
 		7AD653CD2079877F0058ADE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AD653CC2079877F0058ADE4 /* Assets.xcassets */; };
 		7AD653D02079877F0058ADE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD653CE2079877F0058ADE4 /* LaunchScreen.storyboard */; };
 		7AD653DB2079877F0058ADE4 /* GuardianAngelSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD653DA2079877F0058ADE4 /* GuardianAngelSwiftTests.swift */; };
-		7AD92CEE207A021A008A73AA /* DMSEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD92CED207A021A008A73AA /* DMSEntry.swift */; };
-		7AD92CF0207A080A008A73AA /* DMSEntryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD92CEF207A080A008A73AA /* DMSEntryListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A6282A6207C9C4B00B0F8B5 /* DMSEntryListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DMSEntryListView.swift; path = ../../../../../.Trash/DMSEntryListView.swift; sourceTree = "<group>"; };
 		7AD653C22079877F0058ADE4 /* GuardianAngelSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuardianAngelSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD653C52079877F0058ADE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AD653C72079877F0058ADE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,8 +38,6 @@
 		7AD653D62079877F0058ADE4 /* GuardianAngelSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuardianAngelSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD653DA2079877F0058ADE4 /* GuardianAngelSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardianAngelSwiftTests.swift; sourceTree = "<group>"; };
 		7AD653DC207987800058ADE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7AD92CED207A021A008A73AA /* DMSEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMSEntry.swift; sourceTree = "<group>"; };
-		7AD92CEF207A080A008A73AA /* DMSEntryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMSEntryListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +81,9 @@
 			children = (
 				7AD653C52079877F0058ADE4 /* AppDelegate.swift */,
 				7AD653C72079877F0058ADE4 /* ViewController.swift */,
-				7AD92CED207A021A008A73AA /* DMSEntry.swift */,
-				7AD92CEF207A080A008A73AA /* DMSEntryListView.swift */,
 				7AD653C92079877F0058ADE4 /* Main.storyboard */,
 				7AD653CC2079877F0058ADE4 /* Assets.xcassets */,
+				7A6282A6207C9C4B00B0F8B5 /* DMSEntryListView.swift */,
 				7AD653CE2079877F0058ADE4 /* LaunchScreen.storyboard */,
 				7AD653D12079877F0058ADE4 /* Info.plist */,
 			);
@@ -205,8 +202,7 @@
 			files = (
 				7AD653C82079877F0058ADE4 /* ViewController.swift in Sources */,
 				7AD653C62079877F0058ADE4 /* AppDelegate.swift in Sources */,
-				7AD92CF0207A080A008A73AA /* DMSEntryListView.swift in Sources */,
-				7AD92CEE207A021A008A73AA /* DMSEntry.swift in Sources */,
+				7A6282A7207C9C4B00B0F8B5 /* DMSEntryListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

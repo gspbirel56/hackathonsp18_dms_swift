@@ -39,7 +39,7 @@
         <!--View Controller-->
         <scene sceneID="xj3-JM-aFc">
             <objects>
-                <viewController id="B4C-07-lOU" sceneMemberID="viewController">
+                <viewController id="B4C-07-lOU" customClass="ViewController" customModule="GuardianAngelSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TFs-9x-RlW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -59,15 +59,20 @@
                                     <segue destination="suB-40-Rzp" kind="show" animates="NO" id="OsB-wu-6FR"/>
                                 </connections>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="owO-mf-B5Q" customClass="DMSEntryListView" customModule="GuardianAngelSwift" customModuleProvider="target">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="owO-mf-B5Q" customClass="DMSEntryListView" customModule="GuardianAngelSwift" customModuleProvider="target">
                                 <rect key="frame" x="16" y="85" width="343" height="693"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="mcs-F0-vao">
+                                    <rect key="frame" x="0.0" y="118" width="343" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DMSEntryCell" rowHeight="90" id="SLE-dg-zGM" customClass="DMSEntry" customModule="GuardianAngelSwift" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="343" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SLE-dg-zGM" id="9a2-sU-Kr6">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SLE-dg-zGM" id="9a2-sU-Kr6" customClass="DMSEntry" customModule="GuardianAngelSwift" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="343" height="89.666666666666671"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
@@ -90,12 +95,12 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="dateTimeLabel" destination="oRS-qN-k6h" id="38D-6Z-U8h"/>
-                                            <outlet property="enabledSwitch" destination="FaQ-B7-Rf2" id="CMX-u1-oqU"/>
-                                            <outlet property="labelDateTime" destination="oRS-qN-k6h" id="fze-r6-1Xs"/>
-                                            <outlet property="titleLabel" destination="tCK-eS-KT3" id="RJC-Wx-wvb"/>
+                                            <outlet property="dateTimeLabel" destination="oRS-qN-k6h" id="M04-lz-1z0"/>
+                                            <outlet property="enabledSwitch" destination="FaQ-B7-Rf2" id="hPd-is-Fnp"/>
+                                            <outlet property="titleLabel" destination="tCK-eS-KT3" id="F2p-mL-cGJ"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -104,6 +109,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="8Jg-9I-Zyw"/>
                     </view>
+                    <connections>
+                        <outlet property="DMSEntries" destination="owO-mf-B5Q" id="Sk2-K1-nfM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uua-C7-TzK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
