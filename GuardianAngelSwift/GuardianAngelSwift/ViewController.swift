@@ -47,6 +47,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        
         //load a sample entry
         
         let cell = DMSEntries.dequeueReusableCell(withIdentifier: "DMSEntryCell") as! DMSEntry
