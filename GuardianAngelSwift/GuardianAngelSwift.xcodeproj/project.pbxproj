@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A7359C020833C2700CD5C13 /* DeadManSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7359BF20833C2700CD5C13 /* DeadManSwitch.swift */; };
+		7A7359C320833C6B00CD5C13 /* DMSAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7359C220833C6B00CD5C13 /* DMSAction.swift */; };
+		7A7359C620833CC300CD5C13 /* DMSEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7359C520833CC300CD5C13 /* DMSEntry.swift */; };
 		7AC30365207D6A9F00B73978 /* DMSEntryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC30364207D6A9F00B73978 /* DMSEntryListView.swift */; };
 		7AD653C62079877F0058ADE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD653C52079877F0058ADE4 /* AppDelegate.swift */; };
 		7AD653C82079877F0058ADE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD653C72079877F0058ADE4 /* ViewController.swift */; };
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A7359BF20833C2700CD5C13 /* DeadManSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadManSwitch.swift; sourceTree = "<group>"; };
+		7A7359C220833C6B00CD5C13 /* DMSAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMSAction.swift; sourceTree = "<group>"; };
+		7A7359C520833CC300CD5C13 /* DMSEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMSEntry.swift; sourceTree = "<group>"; };
 		7AC30364207D6A9F00B73978 /* DMSEntryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMSEntryListView.swift; sourceTree = "<group>"; };
 		7AD653C22079877F0058ADE4 /* GuardianAngelSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuardianAngelSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD653C52079877F0058ADE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +64,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A7359C120833C4D00CD5C13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A7359BF20833C2700CD5C13 /* DeadManSwitch.swift */,
+				7A7359C220833C6B00CD5C13 /* DMSAction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A7359C420833CB600CD5C13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A7359C520833CC300CD5C13 /* DMSEntry.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		7AD653B92079877F0058ADE4 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +102,8 @@
 		7AD653C42079877F0058ADE4 /* GuardianAngelSwift */ = {
 			isa = PBXGroup;
 			children = (
+				7A7359C420833CB600CD5C13 /* Views */,
+				7A7359C120833C4D00CD5C13 /* Models */,
 				7AD653C52079877F0058ADE4 /* AppDelegate.swift */,
 				7AD653C72079877F0058ADE4 /* ViewController.swift */,
 				7AD653C92079877F0058ADE4 /* Main.storyboard */,
@@ -202,6 +227,9 @@
 			files = (
 				7AD653C82079877F0058ADE4 /* ViewController.swift in Sources */,
 				7AD653C62079877F0058ADE4 /* AppDelegate.swift in Sources */,
+				7A7359C020833C2700CD5C13 /* DeadManSwitch.swift in Sources */,
+				7A7359C620833CC300CD5C13 /* DMSEntry.swift in Sources */,
+				7A7359C320833C6B00CD5C13 /* DMSAction.swift in Sources */,
 				7AC30365207D6A9F00B73978 /* DMSEntryListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

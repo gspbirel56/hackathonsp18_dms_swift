@@ -109,7 +109,7 @@
                         <viewLayoutGuide key="safeArea" id="8Jg-9I-Zyw"/>
                     </view>
                     <connections>
-                        <outlet property="DMSEntries" destination="owO-mf-B5Q" id="Sk2-K1-nfM"/>
+                        <outlet property="DMSEntries" destination="owO-mf-B5Q" id="0Er-95-oGv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uua-C7-TzK" userLabel="First Responder" sceneMemberID="firstResponder"/>
