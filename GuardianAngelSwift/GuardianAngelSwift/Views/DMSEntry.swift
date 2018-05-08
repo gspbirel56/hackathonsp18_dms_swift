@@ -11,7 +11,7 @@ import UIKit
 class DMSEntry: UITableViewCell {
     
     //MARK: Properties
-    @IBOutlet weak var titleLabel: UILabel! = UILabel()
-    @IBOutlet weak var dateTimeLabel: UILabel! = UILabel()
-    @IBOutlet weak var enabledSwitch: UISwitch! = UISwitch()
+    @IBOutlet public weak var titleLabel: UILabel! = UILabel()
+    @IBOutlet public weak var dateTimeLabel: UILabel! = UILabel()
+    @IBOutlet public weak var enabledSwitch: UISwitch! = UISwitch()
 }
