@@ -25,8 +25,8 @@ class AddSwitchViewController: UIViewController {
     }
     
     @IBAction func addNewSwitchToArray(_ sender: Any) {
-        var addThis = DeadManSwitch(title: titleText.text!, time:"implement this", enabled: enabled.isOn)
-        var vc = ViewController()
+        let addThis = DeadManSwitch(title: titleText.text!, time:"implement this", enabled: enabled.isOn)
+        let vc = ViewController()
         vc.addSwitch(add: addThis)
         vc.show(self, sender: Any?.self)
     }
