@@ -87,6 +87,7 @@
                                 <state key="normal" title="Add"/>
                                 <connections>
                                     <action selector="addNewSwitchToArray:" destination="suB-40-Rzp" eventType="touchUpInside" id="jid-bh-6Mg"/>
+                                    <segue destination="B4C-07-lOU" kind="show" animates="NO" id="uXZ-Ev-lW3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -183,4 +184,7 @@
             <point key="canvasLocation" x="-226" y="123"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="uXZ-Ev-lW3"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -28,7 +28,6 @@ class AddSwitchViewController: UIViewController {
         let addThis = DeadManSwitch(title: titleText.text!, time:"implement this", enabled: enabled.isOn)
         let vc = ViewController()
         vc.addSwitch(add: addThis)
-        vc.show(self, sender: Any?.self)
     }
     
     /*
